@@ -1,0 +1,13 @@
+.head-wrapper .head ul li:nth-of-type(5) a span {
+  border-right: none;
+}
+
+.list-type3 .left {
+  display: inline-block;
+  vertical-align: top;
+  width: 530px;
+}
+/* footer */
+.foot-bottom {
+  margin-top: 42px;
+}

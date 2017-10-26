@@ -1,0 +1,75 @@
+/* 轮播图 */
+.slider-icon {
+    background: url(../image/sliderBtn.png) no-repeat;
+  }
+  .slider-wrapper {
+    width: 100%;
+    height: 480px;
+    font-size: 0;
+    position: relative;
+  }
+  /* 按钮 */
+  .slider-wrapper .slider-btn {
+    position: absolute;
+    z-index: 2;
+    width: 78px;
+    height: 78px;
+    top: 50%;
+    margin-top: -39px;
+  }
+  .slider-wrapper .slider-btn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  /* 上一张按钮 */
+  .slider-wrapper .slider-prev {
+    left: 22px;
+  }
+  .slider-wrapper .slider-prev a {
+    background-position: 0 0;
+  }
+  .slider-wrapper .slider-prev a:hover {
+    background-position: 0 -78px;
+  }
+  /* 下一张按钮 */
+  .slider-wrapper .slider-next {
+    right: 22px;
+  }
+  .slider-wrapper .slider-next a {
+    background-position: -78px 0;
+  }
+  .slider-wrapper .slider-next a:hover {
+    background-position: -78px -78px;
+  }
+  /* 轮播图窗口 */
+  .slider-wrapper .slider-window {
+    width: 100%;
+    height: 480px;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+  }
+  .slider-wrapper .slider-window .slider-content {
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 480px;
+    font-size: 0;
+  }
+  .slider-wrapper .slider-window .slider-content .slider-item {
+    vertical-align: top;
+    display: inline-block;
+    width: 33.33333%;
+    height: 480px;
+  }
+  .slider-wrapper .slider-window .slider-content .slider-item img{
+    width: 100%;
+    height: 480px;
+    vertical-align: top;
+  }

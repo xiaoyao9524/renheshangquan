@@ -1,0 +1,283 @@
+
+
+/* content */
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-wrapper .slider-wrapper {
+    width: 100%;
+    height: 480px;
+}
+
+/* main */
+.main {
+    margin-top: 40px;
+    width: 1200px;
+}
+.main .title-bg {
+    width: 1080px;
+    height: 50px;
+    background: url(../image/titleBackground.png) no-repeat center;
+    text-align: center;
+    font: 22px/50px "微软雅黑";
+    color: #344f84;
+    font-weight: 400;
+}
+.main .introduce {
+    width: 1080px;
+    margin: 0 auto 50px;
+}
+.main .introduce .title-vice {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font: 18px/35px "微软雅黑";
+    color: #333333;
+    
+}
+.main .introduce .title-vice span {
+    margin: 0 3px;
+    font-weight: bold;
+}
+.main .introduce .content-text {
+    font-size: 15px;
+    line-height: 30px;
+    text-indent: 2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+.main .introduce .content-data {
+    width: 1080px;
+    margin: 10px auto 0;
+    font-size: 0;
+}
+.main .introduce .content-data .data-item {
+    display: inline-block;
+    width: 216px;
+    height: 86px;
+}
+.content-data .data-item a {
+    display: inline-block;
+    width: 100%;
+    height: 86px;
+    text-align: center;
+}
+.content-data .data-item a i {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    background: url() no-repeat 0 0;
+    background-size: 36px 37px;
+}
+.content-data .data-item a span {
+    width: 100%;
+    display: inline-block;
+    color: #666;
+}
+.content-data .data-item a span:nth-of-type(1) {
+    height: 41px;
+}
+.content-data .data-item a .item-text1 {
+    font: 14px/19px "微软雅黑";
+}
+.content-data .data-item a .item-text2 {
+    font: 20px/26px "微软雅黑";
+}
+
+.main .img-exhibition {
+    width: 1080px;
+    margin: 0 auto;
+}
+.main .img-exhibition li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.main .img-exhibition .type-1 {
+    margin-top: 25px;
+    margin-right: 4px;
+    width: 716px;
+    height: 450px;
+}
+.main .img-exhibition .type-1 img {
+    width: 716px;
+    height: 450px;
+}
+.main .img-exhibition .type-2 {
+    margin-top: 25px;
+    width: 355px;
+    height: 450px;
+}
+.main .img-exhibition .type-2 img {
+    width: 355px;
+    height: 450px;
+}
+.main .img-exhibition .type-3 {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 353px;
+    height: 265px;
+}
+.main .img-exhibition .type-3:nth-of-type(5) {
+    margin-right: 0;
+}
+.main .img-exhibition .type-3 img {
+    width: 353px;
+    height: 265px;
+}
+/* 遮罩 */
+.main .img-exhibition li .mask {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.6;
+}
+.main .img-exhibition li .text-wrapper {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 0;
+}
+.img-exhibition li .text-wrapper span {
+    display: inline-block;
+    width: 100%;
+}
+.img-exhibition li .text-wrapper .text1 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+.img-exhibition li .text-wrapper .text2 {
+    width: 100%;
+    height: 28px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+/* 地理位置 */
+.main .geographical-position {
+    width: 1080px;
+    margin: 20px auto 0;
+    font-size: 0;
+}
+.main .geographical-position div {
+    display: inline-block;
+    vertical-align: top;
+}
+.main .geographical-position .position-img-wrapper {
+    width: 550px;
+    height: 340px;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+.main .geographical-position .position-textwrapper {
+    width: 330px;
+    height: 350px;
+    background: #efefef;
+    padding: 10px 30px 0 20px;
+}
+.main .geographical-position .position-textwrapper p {
+    text-indent: 2em;
+    font: 16px/36px "微软雅黑";
+    color: #666666;
+}
+/* 配套服务 */
+.main .supporting {
+    width: 1080px;
+    margin: 20px auto 0;
+    font-size: 0;
+}
+.supporting ul {
+    width: 100%;
+    font-size: 0;
+}
+.supporting ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 260px;
+    padding: 20px 0 0 0;
+    vertical-align: top;
+    text-align: center;
+}
+.supporting ul li span {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.supporting ul li .icon-wrapper {
+    height: 93px;
+}
+.supporting ul li .icon-wrapper .supporting-icon:nth-of-type(1) {
+    width: 114px;
+    height: 93px;
+}
+.supporting ul li .text {
+    width: 300px;
+    height: 80px;
+    font: 15px/25px "微软雅黑";
+    color: #444;
+    margin: 0 auto;
+}
+.supporting ul li .title {
+    width: 320px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 auto;
+    background: #191919;
+}
+.supporting ul li img{
+    transition: 0.5s;
+}
+.supporting ul li:hover img {
+    transform: scale(1.1);
+}
+
+.supporting ul li:hover .title {
+    background: #37404f;
+}
+
+/* 入驻企业 */
+.main .settled {
+    width: 1080px;
+    margin: 50px auto 49px;
+    font-size: 0;
+
+}
+.main .settled .title-bg {
+    margin-bottom: 22px;
+}
+.main .settled ul {
+    width: 100%;
+    font-size: 0;
+}
+.main .settled ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    padding: 9px 39px;
+}
+.main .settled ul li img {
+    width: 192px;
+    height: 62px;
+    border: 1px solid #919191;
+}
+

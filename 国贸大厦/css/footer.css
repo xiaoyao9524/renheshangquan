@@ -1,0 +1,58 @@
+/* footer */
+.foot-wrapper {
+    width: 100%;
+    height: 114px;
+    background: #37404f;
+}
+.foot-wrapper .foot {
+    width: 1080px;
+    height: 89px;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 25px;
+    text-align: center;
+}
+.foot-wrapper .foot .foot-top {
+    margin-bottom: 10px;
+}
+.foot-wrapper .foot .foot-top span {
+    display: inline-block;
+    vertical-align: top;
+    font: 16px/16px "微软雅黑";
+    height: 16px;
+    color: #fff;
+}
+.foot-wrapper .foot .foot-top a {
+    display: inline-block;
+    vertical-align: top;
+    font: 16px/16px "微软雅黑";
+    height: 16px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 8px;
+}
+.foot-wrapper .foot .foot-bottom span {
+    display: inline-block;
+    vertical-align: top;
+    font: 14px/16px "微软雅黑";
+    height: 16px;
+    color: #fff;
+    margin-right: 14px;
+}
+
+.foot-wrapper .foot .foot-bottom a {
+    display: inline-block;
+    vertical-align: top;
+    font: 14px/16px "微软雅黑";
+    height: 16px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 8px;
+}
+.foot-wrapper .foot .foot-bottom a:nth-of-type(2) {
+    border-right: 0;
+}

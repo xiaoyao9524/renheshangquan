@@ -1,0 +1,27 @@
+/* 入驻企业 */
+.main .settled {
+  width: 1080px;
+  margin: 50px auto 49px;
+  font-size: 0;
+
+}
+.main .settled .title-bg {
+  margin-bottom: 22px;
+}
+.main .settled ul {
+  width: 100%;
+  font-size: 0;
+}
+.main .settled ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 190px;
+  height: 60px;
+  text-align: center;
+  padding: 9px 39px;
+}
+.main .settled ul li img {
+  width: 192px;
+  height: 62px;
+  border: 1px solid #919191;
+}

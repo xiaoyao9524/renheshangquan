@@ -1,0 +1,78 @@
+.head-wrapper .head ul li:nth-of-type(6) a span {
+  border-right: none;
+}
+
+.main .img-list1 .clearFix li a .bg {
+  opacity: 0.6;
+}
+
+.main .sub-data-wrapper {
+  position: relative;
+  width: 1080px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(../image/sub-bg.jpg) no-repeat 0 0;
+  background-size: 100%;
+}
+.main .sub-data-wrapper .sub-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.6;
+  z-index: 1;
+}
+.main .sub-data-wrapper .sub-data {
+  width: 450px;
+  padding-top: 120px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.sub-data-wrapper .sub-data * {
+  display: block;
+  width: 100%;
+}
+.sub-data-wrapper .sub-data .tel-msg {
+  height: 40px;
+  border: none;
+  width: 97%;
+  padding-left: 3%;
+}
+.sub-data-wrapper .sub-data p {
+  font: 12px/40px "微软雅黑";
+  color: #fff;
+  text-align: center;
+}
+.sub-data-wrapper .sub-data .data-msg {
+  width: 430px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #fff;
+  resize: none;
+}
+
+.sub-data-wrapper .sub-data .sub-btn {
+  width: 450px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  background: #446e98;
+  cursor: pointer;
+  align-items: flex-start;
+}
+/* footer */
+.foot-bottom {
+  margin-top: 42px;
+}

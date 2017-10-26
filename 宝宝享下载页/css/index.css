@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+img {
+    vertical-align: top;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 2.04rem;
+}
+.header img {
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    /* margin: 3.9rem auto 2.914rem; */
+    margin: 3.9rem auto 1.3rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    /* height: 6.50rem; */
+
+}
+
+.logo .logo-top {
+    width: 100%;
+    height: 4.8rem;
+    margin-bottom: 0.213rem;
+}
+.logo .logo-top img {
+    border-radius: 26px;
+}
+.logo .logo-shadow {
+    width: 100%;
+    height: 2.7rem;
+}
+
+.dowloadBox {
+    width: 5.213rem;
+    height: 3.066rem;
+    margin: 0 auto;
+}
+.dowloadBox a {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #75bd01;
+    border-radius: 0.04rem;
+    width: 100%;
+    height: 1.253rem;
+    font-size: 0;
+    margin-bottom: 0.53333rem;
+}
+.dowloadBox a:nth-of-type(2) {
+    background-color: #3a85e2;
+}
+.dowloadBox a span {
+    display: inline-block;
+    vertical-align: top;
+}
+.dowloadBox a .left {
+    width: 0.933rem;
+    height: 0.933rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0.12rem 0 0 1.026rem;
+}
+.dowloadBox a .left img {
+    width: 0.493rem;
+    height: 0.586rem;
+    border-radius: 50%;
+    margin: 0.15rem 0 0 0.213rem;
+}
+.dowloadBox a .left .radius-none {
+    border-radius: 0;
+    width: 0.4rem;
+    margin-left: 0.26rem;
+}
+
+.dowloadBox a .right {
+    width: 2.986rem;
+    height: 0.933rem;
+    margin-left: 0.213rem;
+    margin-top: 0.12rem;
+}
+.dowloadBox a .right .title {
+    padding-top: 0.06rem;
+    font: 0.506rem/0.573rem "arial";
+    color: #fff;
+}
+.dowloadBox a .right .text {
+    font: 0.24rem/0.4rem "微软雅黑";
+    color: #fff;
+}
